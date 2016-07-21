@@ -30,29 +30,28 @@
         $(this).css('background-color', color)
       });
 
+        var colorArray = [];
+         function colorList(numberOfColors) {
+           for (var i = 0; i < numberOfColors; i++) {
+           colorArray.push('#'+Math.floor(Math.random()*16777215).toString(16));
+          }
+          return colorArray;
+        };
+colorList(6);
+
+console.log(colorArray);
+      function newPalette(colorArray) {
+         var paint;
+         var palette = $('.palette');
+        //  var colors = ['pink', 'purple', 'LimeGreen', 'black', 'white', 'gray', 'red', 'blue']
+
+         for (var i = 0; i < colorArray.length; i++) {
+           palette.append($('<div id="paint' + colorArray[i] + '"></div>'));
+           $('#' + colorArray[i]).css('background-color', colorArray[i])
+         }
+       }
+       newPalette(colorArray);
 
 
-// var bubble;
-
-  // function newPalette(colors){
-  //
-  //
-  //   var palette = $('#palette');
-  //   for (var i = 0; i < colors; i++) {
-  //     palette.append($('<div id="bubble"</div>'));
-  //   }
-  // }
-  // newPalette(colorNumbers)
-
-  var colorArray = [];
-   function colorList(numberOfColors) {
-     for (var i = 0; i < numberOfColors; i++) {
-     colorArray.push('#'+Math.floor(Math.random()*16777215).toString(16));
-    }
-    return colorArray;
-  };
-// console.log(colorList(colorNumbers));
-
-var colorNumbers = 6
 
 }());

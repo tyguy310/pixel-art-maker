@@ -42,6 +42,16 @@ body  {
   display: block;
 }
 
+.paint {
+  float: left;
+  border: 1px solid black;
+  height: 40px;
+  width: 200px;
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+}
+
 p {
   font-family: fantasy;
   color: white;
