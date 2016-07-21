@@ -1,0 +1,49 @@
+html  {
+  box-sizing: border-box;
+  }
+
+body  {
+  background-color: antiquewhite;
+}
+  #canvas {
+  margin: auto;
+  width: 600px;
+}
+
+.pixel  {
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  height: 10px;
+  width: 10px;
+}
+/*#newColor {
+  background-color: azure;
+  border: 1px solid black;
+  float: left;
+  height: 10px;
+  width: 10px;*/
+}
+#palette  {
+  margin: auto;
+  width: 600px;
+  border: 2px solid black;
+  clear: both;
+  float: left;
+}
+
+#bubble {
+  float: left;
+  border: 1px solid black;
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+p {
+  font-family: fantasy;
+  color: white;
+  background-color:black;
+}
