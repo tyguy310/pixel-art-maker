@@ -35,7 +35,7 @@ body  {
 #bubble {
   float: left;
   border: 1px solid black;
-  height: 20px;
+  height: 40px;
   width: 200px;
   border-radius: 5px;
   margin: auto;
