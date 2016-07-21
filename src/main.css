@@ -11,7 +11,7 @@ body  {
 }
 
 .pixel  {
-  background-color: white;
+  /*background-color: white;*/
   border: 1px solid black;
   float: left;
   height: 10px;
@@ -52,8 +52,6 @@ body  {
   display: block;
 }
 
-p {
+button {
   font-family: fantasy;
-  color: white;
-  background-color:black;
 }
